@@ -1,0 +1,23 @@
+*** language/en/posting.php	2012-08-20 17:09:18.000000000 +0200
+--- language/en/posting.php	2013-09-28 03:20:51.000000000 +0200
+***************
+*** 54,62 ****
+  	'BBCODE_IS_OFF'				=> '%sBBCode%s is <em>OFF</em>',
+  	'BBCODE_IS_ON'				=> '%sBBCode%s is <em>ON</em>',
+  	'BBCODE_I_HELP'				=> 'Italic text: [i]text[/i]',
+! 	'BBCODE_L_HELP'				=> 'List: [list]text[/list]',
+! 	'BBCODE_LISTITEM_HELP'		=> 'List item: [*]text[/*]',
+! 	'BBCODE_O_HELP'				=> 'Ordered list: [list=]text[/list]',
+  	'BBCODE_P_HELP'				=> 'Insert image: [img]http://image_url[/img]',
+  	'BBCODE_Q_HELP'				=> 'Quote text: [quote]text[/quote]',
+  	'BBCODE_S_HELP'				=> 'Font colour: [color=red]text[/color]  Tip: you can also use color=#FF0000',
+--- 54,62 ----
+  	'BBCODE_IS_OFF'				=> '%sBBCode%s is <em>OFF</em>',
+  	'BBCODE_IS_ON'				=> '%sBBCode%s is <em>ON</em>',
+  	'BBCODE_I_HELP'				=> 'Italic text: [i]text[/i]',
+! 	'BBCODE_L_HELP'				=> 'List: [list][*]text[/list]', 
+! 	'BBCODE_LISTITEM_HELP'		=> 'List item: [*]text',
+! 	'BBCODE_O_HELP'				=> 'Ordered list: e.g. [list=1][*]First point[/list] or [list=a][*]Point a[/list]',
+  	'BBCODE_P_HELP'				=> 'Insert image: [img]http://image_url[/img]',
+  	'BBCODE_Q_HELP'				=> 'Quote text: [quote]text[/quote]',
+  	'BBCODE_S_HELP'				=> 'Font colour: [color=red]text[/color]  Tip: you can also use color=#FF0000',

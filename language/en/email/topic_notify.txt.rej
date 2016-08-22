@@ -1,0 +1,19 @@
+*** language/en/email/topic_notify.txt	2012-08-20 17:09:18.000000000 +0200
+--- language/en/email/topic_notify.txt	2013-09-28 03:20:51.000000000 +0200
+***************
+*** 2,8 ****
+  
+  Hello {USERNAME},
+  
+! You are receiving this notification because you are watching the topic, "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+  
+  If you want to view the newest post made since your last visit, click the following link:
+  {U_NEWEST_POST}
+--- 2,8 ----
+  
+  Hello {USERNAME},
+  
+! You are receiving this notification because you are watching the topic, "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+  
+  If you want to view the newest post made since your last visit, click the following link:
+  {U_NEWEST_POST}

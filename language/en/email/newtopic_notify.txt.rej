@@ -1,0 +1,19 @@
+*** language/en/email/newtopic_notify.txt	2012-08-20 17:09:18.000000000 +0200
+--- language/en/email/newtopic_notify.txt	2013-09-28 03:20:51.000000000 +0200
+***************
+*** 2,8 ****
+  
+  Hello {USERNAME},
+  
+! You are receiving this notification because you are watching the forum, "{FORUM_NAME}" at "{SITENAME}". This forum has received a new topic since your last visit, "{TOPIC_TITLE}". You can use the following link to view the forum, no more notifications will be sent until you visit the forum.
+  
+  {U_FORUM}
+  
+--- 2,8 ----
+  
+  Hello {USERNAME},
+  
+! You are receiving this notification because you are watching the forum, "{FORUM_NAME}" at "{SITENAME}". This forum has received a new topic<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit, "{TOPIC_TITLE}". You can use the following link to view the forum, no more notifications will be sent until you visit the forum.
+  
+  {U_FORUM}
+  
