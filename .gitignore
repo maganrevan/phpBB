@@ -1,1 +1,4 @@
 /cache/
+/nbproject/
+/.htaccess
+/config.php
